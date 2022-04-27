@@ -1,0 +1,27 @@
+nav{
+    section{
+        background-color:rgba(253, 149, 111, 0.681);
+        ul{     
+            li{
+                 list-style-type: none;
+                a{
+                    display: grid;
+                    justify-content: center;
+                    text-decoration: none;
+                    color: rgb(255, 0, 0);
+                }
+            }
+        }
+    }
+}
+a:hover {
+    color: black;
+}
+
+.links {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+

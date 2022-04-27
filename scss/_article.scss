@@ -1,0 +1,68 @@
+/* Stylo Nosotros */
+#nosotros{
+    margin-top: 40px;
+    background-color: rgb(234, 173, 138);
+    color: rgb(25, 25, 25);
+    text-align: center;
+}
+
+#nosotros .container{
+    padding: 100px 12px;
+}
+
+#nosotros h2{
+color: black;
+    
+}
+
+#nosotros p{
+    display: none;
+    
+}
+
+#nosotros .carta{
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+#nosotros .programas{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#nosotros p{
+    display: block;
+    margin-bottom: 10px;
+   
+}
+
+#nosotros .carta{
+    padding: 15px;
+    
+}
+
+/* Stylo Button*/
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: rgb(85, 81, 89);
+}
+
+button:hover{
+    background-color:rgba(253, 149, 111, 0.74);
+}
+
+.button{position:relative;padding:1em 1.5em;border:none;background-color:transparent;cursor:pointer;outline:0;font-size:18px;}
+.button.type1{color:#566473}
+.button.type1.type1::after,.button.type1.type1::before{content:"";display:block;position:absolute;width:20%;height:20%;border:2px solid;transition:all .6s ease;border-radius:2px}
+.button.type1.type1::after{bottom:0;right:0;border-color:transparent #566473 #566473 transparent}
+.button.type1.type1::before{top:0;left:0;border-color:#566473 transparent transparent #566473}
+.button.type1.type1:hover:after,.button.type1.type1:hover:before{width:100%;height:100%}
+
