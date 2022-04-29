@@ -1,3 +1,6 @@
+@import "../base/extends";
+@import "../base/variables";
+@import "../base/listas";
 *{
     margin: 0;
     padding: 0;
@@ -82,9 +85,8 @@ body{
 
 /* Stylo spotify-youtube*/
 .playlist {
-    display: flex;
+    @extend %flexbox;
     width: auto;
-    justify-content: center;
     flex-wrap: wrap;
     padding: 40px;
     margin: 5px;
@@ -92,9 +94,8 @@ body{
 }
 
 .video1 {
-    display: flex;
+    @extend %flexbox;
     width: auto;
-    justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
     margin: 10px;
@@ -102,9 +103,8 @@ body{
 }
 
 .video2 {
-    display: flex;
+    @extend %flexbox;
     width: auto;
-    justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
     margin: 10px;
@@ -114,26 +114,25 @@ body{
 
 /* Stylo Fechas */
 #fechas img{
+    @extend %flexbox;
     max-width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: grid;
-    justify-content: center;
+    margin-top: 40px;
+    padding: 10px;
 } 
 
 /* Stylo +Info */
 #ana img{
     max-width: 100%;
-    background-color: navajowhite;
+    background-color: color-principal;
 }
 
 #nestor img{
     max-width: 100%;
-    background-color: navajowhite;
+    background-color: color-principal;
 }
 #carlos img{
     max-width: 100%;
-    background-color: navajowhite;
+    background-color: color-principal;
 }
 
 /* Stylo Entrevistas*/
