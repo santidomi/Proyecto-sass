@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:rgba(253, 149, 111, 0.681);
+    background-color:map-get($map:$paleta, $key:"primario" )
 }
 
 
