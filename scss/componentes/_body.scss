@@ -159,5 +159,11 @@ p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#
 
 .card-img{
     display: flex;
+    justify-content: center !important;
+}
+
+div.carta {
     justify-content: center;
+    padding: 10px;
+    margin-bottom: 129px;
 }

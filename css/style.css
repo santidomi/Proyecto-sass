@@ -308,7 +308,13 @@ p:before {
 
 .card-img {
   display: flex;
+  justify-content: center !important;
+}
+
+div.carta {
   justify-content: center;
+  padding: 10px;
+  margin-bottom: 129px;
 }
 
 nav section {
