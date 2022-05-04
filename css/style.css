@@ -9,6 +9,8 @@ header section h1 {
 
 /* Stylo Nosotros */
 #nosotros {
+  display: flex;
+  max-width: 100%;
   margin-top: 40px;
   background-color: rgb(234, 173, 138);
   color: rgb(25, 25, 25);
@@ -28,6 +30,8 @@ header section h1 {
 }
 
 #nosotros .carta {
+  display: flex;
+  max-width: 100%;
   justify-content: center;
   justify-content: space-between;
 }
@@ -103,6 +107,14 @@ button:hover {
 .button.type1.type1:hover:after, .button.type1.type1:hover:before {
   width: 100%;
   height: 100%;
+}
+
+.card-footer:last-child {
+  background-color: antiquewhite;
+}
+
+.card-body {
+  background-color: antiquewhite;
 }
 
 #fechas img, .video2, .video1, .playlist {
@@ -225,6 +237,8 @@ body {
 
 /* Stylo +Info */
 #ana img {
+  display: flex;
+  justify-content: center;
   max-width: 100%;
   background-color: color-principal;
 }
@@ -290,6 +304,11 @@ p:before {
   margin: 28px 0 0;
   font-size: 14px;
   color: #5a5a5a;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
 }
 
 nav section {
@@ -360,15 +379,15 @@ a.socialIcon:hover, .socialHoverClass {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   text-align: center;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   font-size: 40px;
   background-color: #D3D3D3;
 }
 
 .social-circle li i {
   margin: 0;
-  line-height: 100px;
+  line-height: 70px;
   text-align: center;
 }
 

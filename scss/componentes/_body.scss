@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     background-color:map-get($map:$paleta, $key:"primario" )
@@ -122,8 +123,11 @@ body{
 
 /* Stylo +Info */
 #ana img{
+    display: flex;
+    justify-content: center;
     max-width: 100%;
     background-color: color-principal;
+    
 }
 
 #nestor img{
@@ -152,3 +156,8 @@ body{
 .form{width:340px;height:440px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
 input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}input:focus{border-bottom:2px solid #78788c}
 p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+}

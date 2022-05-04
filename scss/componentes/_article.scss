@@ -1,5 +1,7 @@
 /* Stylo Nosotros */
 #nosotros{
+    display: flex;
+    max-width: 100%;
     margin-top: 40px;
     background-color: rgb(234, 173, 138);
     color: rgb(25, 25, 25);
@@ -8,6 +10,7 @@
 
 #nosotros .container{
     padding: 100px 12px;
+
 }
 
 #nosotros h2{
@@ -21,6 +24,8 @@ color: black;
 }
 
 #nosotros .carta{
+    display: flex;
+    max-width: 100%;
     justify-content: center;
     justify-content: space-between;
 
@@ -42,6 +47,7 @@ color: black;
     padding: 15px;
     
 }
+
 
 /* Stylo Button*/
 button{
@@ -66,3 +72,10 @@ button:hover{
 .button.type1.type1::before{top:0;left:0;border-color:#566473 transparent transparent #566473}
 .button.type1.type1:hover:after,.button.type1.type1:hover:before{width:100%;height:100%}
 
+.card-footer:last-child{
+    background-color: antiquewhite;
+}
+
+.card-body{
+    background-color: antiquewhite;
+}
